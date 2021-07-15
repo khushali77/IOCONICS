@@ -1,0 +1,23 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.8fr;
+    align-items: center;
+    justify-items: center;
+    overflow-y: hidden !important;
+}
+
+.logo{
+    margin-top: 50px;
+}
+
+button{
+    color: white;
+    font-size: 18px;
+    margin-top: -20%;
+    padding: 0.8% 5%;
+    border-radius: 50px;
+    background: rgb(147,209,241);
+    background: linear-gradient(0deg, rgba(147,209,241,1) 0%, rgba(0,145,221,1) 100%);
+    border: #7683F6 solid 1px;
+}
