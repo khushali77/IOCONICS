@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Route exact path='/IOCONICS' component={Home}/>
+      <Route exact path='/' component={Home}/>
       <Route exact path='/language' component={Language}/>
       </BrowserRouter>
     </div>
