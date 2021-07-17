@@ -1,23 +1,29 @@
 .home{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.8fr;
+    grid-template-rows: 1fr 0.7fr;
     align-items: center;
     justify-items: center;
     overflow-y: hidden !important;
+    height:100vh;
 }
 
 .logo{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
-button{
+.startShopping{
     color: white;
-    font-size: 18px;
-    margin-top: -20%;
-    padding: 0.8% 5%;
+    font-size: 28px;
+    padding: 2% 7%;
     border-radius: 50px;
-    background: rgb(147,209,241);
-    background: linear-gradient(0deg, rgba(147,209,241,1) 0%, rgba(0,145,221,1) 100%);
-    border: #7683F6 solid 1px;
+    background: rgb(74, 180, 233);
+    border: #6d7bff solid 1px;
+    box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+}
+
+.startShopping:hover{
+    background:rgb(109, 203, 250);
 }
