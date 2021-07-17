@@ -1,7 +1,6 @@
 import React from "react";
 import s1 from "../Assets/logo.png";
 import "../Css/home.css";
-// import {Link} from "react-router-dom";
 
 function Home(){
     return(
