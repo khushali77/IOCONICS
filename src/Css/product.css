@@ -1,0 +1,134 @@
+.product{
+    display:grid;
+    text-align: center;
+    height:100vh;
+    grid-template-columns: 2fr 1fr;
+}
+
+.productTitle{
+    padding-top: 25px;
+}
+
+.leftPanel,.rightPanel{
+    border: solid 1px #979797;
+    margin: 20px;
+}
+
+.leftPanel{
+    display: grid;
+    grid-template-rows: 1.5fr 0.2fr 1fr;
+}
+
+.productInfo{
+    border: solid 1px #979797;
+    margin: 20px;
+    display: grid;
+}
+
+.productDetails{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.productDetails p{
+    color: rgb(99, 99, 99);
+    font-size: 24px;
+}
+
+.productDetails h2{
+    margin-top: -10px;
+}
+
+.rightPanel{
+    display: grid;
+    grid-template-rows: 0.8fr 6fr 1fr;
+}
+
+.qtyDetails{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.productsList{
+    font-size: 18px;
+}
+
+.pluButton{
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    background: #0BDA51;
+    border: none;
+    width: 20%;
+    box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49); 
+}
+
+.pluButton:hover{
+    background: #4bdb7b;
+}
+
+
+.titleList{
+    border-bottom: solid 1px #979797;
+    padding-top: 15px;
+}
+
+.table thead th{
+    text-align: center;
+}
+
+.total{
+    font-weight: bold;
+}
+
+.checkout{
+    color: white;
+    font-size: 24px;
+    border-radius: 50px;
+    background: #0BDA51;
+    border: none;
+    width: 50%;
+    height: 50%;
+    box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 4px 4px 11px -1px rgba(0,0,0,0.49);
+    justify-self: center;
+    align-self: center;
+}
+
+.checkout:hover{
+    background: #4bdb7b;
+}
+
+.discCarousel{
+    width: 100vh;
+    height: 100%;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border: gray solid 1px;
+    padding: 50px;
+    align-self: center;
+    justify-self: center;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 40px;
+    color: black;
+}
+
+.slick-prev:before{
+    margin-left: -20px;
+}
+
+.discItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}

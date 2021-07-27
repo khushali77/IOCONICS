@@ -1,0 +1,116 @@
+.products{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* .discImg{
+    height: 70%;
+} */
+
+.hamButton{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.perProduct{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: gray 1px solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 50px 20px 50px 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.amount{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.pluButton{
+    text-align: center;
+}
+
+.discProductsSection{
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.discItem{
+    display: grid !important;
+    grid-template-columns: 1fr 3fr; 
+    padding: 0px 30px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.discCarousel{
+    width: 100vh;
+    margin: 20px;
+    border: gray solid 1px;
+    border-radius: 5px;
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 40px;
+    color: black;
+}
+
+.slick-prev:before{
+    margin-left: -20px;
+}
+
+.discProds{
+    color: rgb(29, 153, 255);
+}
+
+.discImg{
+    height: 180px;
+}
+
+.discPrice{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+}
+
+.striked{
+    text-decoration: line-through;
+}
+
+.subtotal{
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.rightPanel{
+    display: grid;
+    grid-template-rows: 0.8fr 6fr 0.5fr;
+    border: gray 1px solid;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.titleList{
+    border-bottom: solid 1px #979797;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.table thead th{
+    text-align: center;
+}
+
