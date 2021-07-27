@@ -26,7 +26,7 @@ function Products(){
             <div className="leftPanel">
 
                 <div className="hamburger">
-                    <Button variant="light" onClick={handleShow} className="hamButton"><img src="https://img.icons8.com/material-outlined/24/000000/menu.png"/></Button>
+                    <Button variant="light" onClick={handleShow} className="hamButton"><img alt="menu" src="https://img.icons8.com/material-outlined/24/000000/menu.png"/></Button>
                     <Offcanvas show={show} onHide={handleClose}>
                         <Offcanvas.Header closeButton>
                         <Offcanvas.Title>IOCONICS</Offcanvas.Title>
